@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="shortcut icon" href="./IMGS/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>NOTEPAD STUFF</title>
+</head>
+<body>
+    <div class="Entire-Content">
+        <div class="Entire-container">
+            <div class="stuff-title">
+                <img src="./IMGS/LOGO.jpg" alt="logo">
+                <h2 id="title">untitled</h2>
+                <div>
+                    <i class="fa-solid fa-window-minimize"></i>
+                    <i class="fa-solid fa-maximize"></i>
+                    <i class="fa-solid fa-xmark"></i></div>
+            </div>
+            <nav>
+                <div id="file">File</div>
+                <div>Edit</div>
+                <div>Format</div>
+                <div>View</div>
+                <div>Help</div>
+            </nav>
+            <section class="Drop-downs">
+                <div class="file-drop">
+                    <table>
+                            <tbody>
+                            <tr>
+                                <td id="newBtn">New</td>
+                                <td id="newBtn">Ctrl+N</td>
+                            </tr>
+                                <tr>
+                                 <td id="ShowCase">Open..</td>
+                                 <td>Ctrl+O</td>
+                                </tr>
+                                <tr>
+                            <td id="SaveTOLocalStorage">Save</td>
+                                    <td>Ctrl+S</td>
+                                </tr>
+                                <tr>
+                                    <td id="saveClick">Name as..</td>
+                                    <td>ctrl+shift+S</td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td id="exit-file">Exit</td>
+                                </tr>
+                            </tbody>
+                    </table>
+                </div>
+                <div class="saveDope" style="display: none;">
+                    <input type="text" placeholder="Save it sharp" id="saveInput">
+                    <input type="submit" value="Save" id="saveBtn">
+                </div>
+            </section>
+           <main>
+            <textarea name="textarea" id="main-stuff" cols="120" rows="20"></textarea>
+           </main>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
