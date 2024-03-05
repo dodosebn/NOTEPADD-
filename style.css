@@ -74,6 +74,11 @@ table {
     border-radius: 5px;
 }
 .fa-maximize, .fa-xmark{margin-left: 1.5em;}
+#greet{
+    text-align: center;
+    font-size: 1.5em;
+    text-shadow: 2px 2px 2px red;
+}
 @media(max-width:380px){
     body{ overflow-y: hidden;}
     table { width: 14%; }
